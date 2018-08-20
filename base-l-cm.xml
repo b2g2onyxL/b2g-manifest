@@ -116,7 +116,7 @@
   <project name="LineageOS/android_hardware_ril" path="hardware/ril" remote="GitHub" />
   <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="GitHub" revision="stable/cm-12.1-caf-YOG7D" />
 
-  <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="GitHub" clone-depth="1" />
+<!--   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="GitHub" clone-depth="1" /> -->
 
   <project name="LineageOS/android_system_extras" path="system/extras" remote="GitHub" />
   <project name="LineageOS/android_system_media" path="system/media" remote="GitHub" />
