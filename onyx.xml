@@ -5,8 +5,8 @@
 	<project name="onyx-cm12/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="b2g" />
 	<project name="onyx-cm12/vonder_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="b2g/cm-12.1" />
 
-	<project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" />
-	<project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" />
+	<project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+	<project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
 <!-- 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="GitHub" /> -->
 	
 <!-- 	because something are huge , need to download only -->	
