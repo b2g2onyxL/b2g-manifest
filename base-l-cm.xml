@@ -5,7 +5,7 @@
   <!-- <include name="locales.xml"/> -->
 
   <remote name="GitHub"
-          fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
+          fetch="git://github.com/"
           revision="stable/cm-12.1-YOG7D" />
 
 
