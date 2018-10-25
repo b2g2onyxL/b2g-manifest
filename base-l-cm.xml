@@ -13,9 +13,15 @@
           fetch="git://github.com/cm-b2g/"
           revision="b2g/cm-12.1-YOG7D" />
 
+  <default remote="caf"
+           revision="refs/tags/android-5.1.1_r29"
+           sync-j="8"/>
+
+<!-- if use China net
   <default remote="tuna"
            revision="refs/tags/android-5.1.1_r29"
            sync-j="8"/>
+-->
 
   <!-- B2G specific things. -->
   <remove-project name="platform/frameworks/wilhelm" />

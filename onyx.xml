@@ -7,10 +7,6 @@
 
 	<project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
 	<project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
-<!-- 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="GitHub" /> -->
-	
-<!-- 	because something are huge , need to download only -->	
-	 <remove-project name="platform_frameworks_base" />
-	 <remove-project name="gecko-b2g" />
+
 </manifest>
 
