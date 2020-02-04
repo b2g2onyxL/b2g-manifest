@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<include name="base-l-cm.xml"/>
+	
+	<remove-project name="gaia" />
+	<project name="b2g2onyxL/gaia" path="gaia" remote="github" revision="master" />
+	
+	<remove-project name="gecko-b2g" />
+	<project name="b2g2onyxL/gecko-b2g" path="gecko" remote="github" revision="onyx" />
+	
+	<remove-project name="gonk-misc" />
+	<project name="b2g2onyxL/gonk-misc" path="gonk-misc" remote="github" revision="node" />
+	
+	<remove-project name="platform_frameworks_av" />
+	<project name="b2g2onyxL/frameworks_av" path="frameworks/av" remote="github" revision="master" />
+	
+ 	<remove-project name="platform_frameworks_base" />
+	<project name="b2g2onyxL/frameworks_base" path="frameworks/base" remote="github" revision="master" />
+	
+	<remove-project name="platform_frameworks_native" />
+	<project name="b2g2onyxL/frameworks_native" path="frameworks/native" remote="github" revision="master" />
+		
 	<project name="b2g2onyxL/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="b2g/cm-12.1" />
 	<project name="b2g2onyxL/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="b2g" />
 	<project name="b2g2onyxL/vonder_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="master" />
