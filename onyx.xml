@@ -28,6 +28,7 @@
 
 	<project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
 	<project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+	<project name="LineageOS/android_external_ant-wireless_antradio-library"  path="external/ant-wireless/antradio-library" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
 
 </manifest>
 
