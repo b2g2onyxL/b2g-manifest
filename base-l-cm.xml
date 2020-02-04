@@ -13,7 +13,7 @@
           fetch="git://github.com/cm-b2g/"
           revision="b2g/cm-12.1-YOG7D" />
 
-  <default remote="caf"
+  <default remote="aosp"
            revision="refs/tags/android-5.1.1_r29"
            sync-j="8"/>
 
