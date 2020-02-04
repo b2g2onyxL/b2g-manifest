@@ -8,6 +8,8 @@
 	<remove-project name="gecko-b2g" />
 	<project name="b2g2onyxL/gecko-b2g" path="gecko" remote="github" revision="onyx" />
 	
+	<project name="b2g2onyxL/b2g_sdk" path="gaia/b2g_sdk" remote="github" revision="onyx" />
+	
 	<remove-project name="gonk-misc" />
 	<project name="b2g2onyxL/gonk-misc" path="gonk-misc" remote="github" revision="node" />
 	
