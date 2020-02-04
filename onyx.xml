@@ -23,6 +23,10 @@
 	
 	<remove-project name="platform_frameworks_native" />
 	<project name="b2g2onyxL/frameworks_native" path="frameworks/native" remote="github" revision="master" />
+	
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<project name="b2g2onyxL/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="GitHub" revision="stable/cm-12.1-caf-8974-YOG7D" />
+	
 		
 	<project name="b2g2onyxL/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
 	<project name="b2g2onyxL/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
