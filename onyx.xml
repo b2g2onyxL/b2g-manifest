@@ -2,6 +2,8 @@
 <manifest>
 	<include name="base-l-cm.xml"/>
 	
+	<remove-project name="platform_system_bluetoothd" />
+	
 	<remove-project name="gaia" />
 	<project name="b2g2onyxL/gaia" path="gaia" remote="github" revision="master" />
 	
