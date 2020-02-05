@@ -8,7 +8,7 @@
 	<project name="b2g2onyxL/gaia" path="gaia" remote="github" revision="master" />
 	
 	<remove-project name="gecko-b2g" />
-	<project name="b2g2onyxL/gecko-b2g" path="gecko" remote="github" revision="cl" />
+	<project name="cubieboard2-b2g/gecko-dev-gpio" path="gecko" remote="github" revision="b2g44_v2_5-chirimen" />
 	
 	<project name="b2g2onyxL/b2g_sdk" path="gaia/b2g_sdk" remote="github" revision="39a1" />
 	
