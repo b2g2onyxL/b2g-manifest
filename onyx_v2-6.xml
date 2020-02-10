@@ -26,6 +26,7 @@
 	<remove-project name="platform_frameworks_wilhelm" />
 	<remove-project name="platform_system_core" />
 	<remove-project name="platform_prebuilts_misc" />
+        <remove-project name="platform_external_sepolicy" />
 	
   <!-- B2G repositories for all targets -->
  
