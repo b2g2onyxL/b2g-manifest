@@ -19,6 +19,7 @@
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote name="github" fetch="git://github.com/" />
+  <remote name="Github" fetch="git://github.com/" />
 
   <!--
     B2G repositories for all targets
