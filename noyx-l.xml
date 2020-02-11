@@ -18,6 +18,7 @@
   <remote fetch="http://android.git.linaro.org/git-ro/" name="linaro"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote name="github" fetch="git://github.com/" />
 
   <!--
     B2G repositories for all targets
@@ -191,8 +192,6 @@
 
   <!-- Nexus 5 specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="fe7df1bc8dd0fd71571505d7be1c31a4ad1e40fb"/>
-  <project name="device-hammerhead" path="device/lge/hammerhead" remote="b2g" revision="acbb7a8914059426180c9059fc9419e57668a478"/>
-  <project name="device_lge_hammerhead-kernel" path="device/lge/hammerhead-kernel" remote="b2g" revision="8b3ffcfdd3d3852eca5488628f8bb2a08acbffa7"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="5d0ae53d9588c3d70c005aec9be94af9a534de16"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="c15b6e266136cd0cdd9b94d0bbed1962d9dd6672"/>
   <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="399fe3d3c8f38c599a56becddc456133e62a5d70"/>
@@ -207,5 +206,15 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="6417804bea95f6e46094a01a06025a86e28c5b0d"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="e00d716e7e3d31729f75399855b6921e90cb0b66"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="v2.6"/>
+  
+  <project name="b2g2onyxL/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
+  <project name="b2g2onyxL/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
+  <project name="b2g2onyxL/vonder_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
+
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library"  path="external/ant-wireless/antradio-library" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+
+
 
 </manifest>
