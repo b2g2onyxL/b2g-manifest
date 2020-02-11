@@ -212,8 +212,8 @@
   <project name="b2g2onyxL/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
   <project name="b2g2onyxL/vonder_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="b2g-cm12.1" />
 
-  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
-  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="gitHub" revision="stable/cm-12.1-YOG7D" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="gitHub" revision="stable/cm-12.1-YOG7D" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library"  path="external/ant-wireless/antradio-library" remote="GitHub" revision="stable/cm-12.1-YOG7D" />
 
 
