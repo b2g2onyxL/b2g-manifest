@@ -13,7 +13,7 @@
 	<remove-project name="platform_system_libfdio" />
 	<remove-project name="platform_system_libpdu" />
 	<remove-project name="platform_system_sensorsd" />
-	<remove-project name="platform_build" />
+	<!-- <remove-project name="platform_build" /> -->
 	<remove-project name="fake-libdvm" />
 	<remove-project name="fake-qemu-kernel" />
 	<remove-project name="librecovery" />
@@ -42,9 +42,11 @@
   <project name="platform_system_sensorsd" path="system/sensorsd" remote="b2g" revision="v2.6"/>
 
   <!-- B2G specific things. -->
+	<!--
   <project name="platform_build" path="build" remote="b2g" revision="aee7ff3dba262a037559d360b62af429b62cb876">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+-->
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.6"/>
   <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="v2.6"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="v2.6"/>
